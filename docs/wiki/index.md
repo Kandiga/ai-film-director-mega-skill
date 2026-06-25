@@ -19,7 +19,7 @@
 
 ## Prompt Libraries
 
-- [[pre-prophetic-cinema]] — Based on frame-language analysis of “הנביא החשמלי”, but written as reusable original prompt grammar. See [[reverse-prompt-engineering]] and [[cine-lock]].
+- [[pre-prophetic-cinema]] — Based on frame-language analysis of “הנביא החשמלי”, but written as reusable original prompt grammar. See [[reverse-prompt-engineering]], [[cine-lock]], and [[electric-prophet-frame
 
 ## Checklists
 

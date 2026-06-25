@@ -10,7 +10,7 @@ confidence: high
 
 # Pre-Prophetic Cinema Prompt Library
 
-Based on frame-language analysis of “הנביא החשמלי”, but written as reusable original prompt grammar. See [[reverse-prompt-engineering]] and [[cine-lock]].
+Based on frame-language analysis of “הנביא החשמלי”, but written as reusable original prompt grammar. See [[reverse-prompt-engineering]], [[cine-lock]], and [[electric-prophet-frame-analysis]].
 
 ## Master skeleton
 
