@@ -78,10 +78,25 @@ Do not overload every prompt with the full bible. Repeat only the anchors needed
 For serious scenes, build three blueprint layers:
 
 1. **Character/object blueprints:** recurring people, aliens, craft, props, statues.
-2. **Environment/area blueprints:** market, palace, desert, city, ritual space, backstage, podium, orbit.
-3. **Shot blueprints:** camera, framing, action, motion, end beat, SFX, forbidden drift.
+2. **Environment/area blueprints:** every major spatial zone.
+3. **Shot blueprints:** composition, camera, motion, action, sound/SFX, forbidden drift.
 
 A start frame generated before blueprints may be useful as draft/reference, but it is not production-locked.
+
+### Character lock update — gray background, not white
+
+Frame analysis of Joey's Claude-skills workflow added a practical correction: do not default recurring characters to pure white seamless reference sheets. White can blow out facial edges, bounce light into the jaw, add glossy skin, and later make faces look pasted/plastic inside generated scenes.
+
+For recurring characters/creatures, prefer:
+
+- solid neutral gray background;
+- soft controlled lighting, not over-bright diffuse light;
+- visible natural skin/material texture;
+- full-body + portrait + side/back/details;
+- a six-panel/turnaround sheet for important characters;
+- explicit do-not-change marks: tattoos, jewelry, scars, piercings, silhouette, finger/hand shape, alien anatomy.
+
+Separate identity from outfit. If an outfit was generated on another generic model, use outfit-first reference order: reference 1 = outfit/garment, reference 2 = character identity, then instruct the model to transfer the outfit while preserving identity from reference 2.
 
 ### Level 4 — Keyframe / start-frame control
 
@@ -113,13 +128,29 @@ Prompt order:
 6. lighting/style;
 7. constraints.
 
+Add a tool-facing reference-order block for serious Seedance/Kling/Higgsfield shots:
+
+```text
+References to attach, in this exact order:
+1. identity / character sheet
+2. outfit / gesture / body-detail sheet
+3. location / area blueprint
+4. prop / vehicle / object reference
+5. lighting / atmosphere reference
+6. approved prior frame if continuity-critical
+```
+
+Use names such as Roe, Phantom, Zara, Mei, etc. for planning, but tool-facing prompts must also describe the visible identity, wardrobe, role, and continuity anchors. Do not rely on a model knowing a name.
+
 Begin image-to-video prompts with:
 
 ```text
 Use the provided image as the exact first frame.
 ```
 
-Then describe only allowed motion.
+Then describe only allowed motion. For rainy/smoky/energy environments, avoid freezing motion into still references: use wet surfaces, droplets, reflections, haze and glow as still evidence, then ask the video model to animate moving rain/smoke/particles/light.
+
+Select camera operator mode deliberately: locked-off tripod, slow dolly, gimbal, handheld operator-breathing, Dutch angle, drone, surveillance, or POV. Handheld realism is subtle breathing/micro-shake, not random chaos.
 
 ### Level 6 — QA and repair
 

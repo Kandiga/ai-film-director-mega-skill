@@ -1,6 +1,6 @@
 # Wiki Index
 
-> Generated: 2026-06-25 | Total pages: 9
+> Generated: 2026-06-27 | Total pages: 10
 
 ## Concepts
 
@@ -11,6 +11,7 @@
 
 - [[ai-film-qa-loop]] — QA is not optional. Render success is not creative success.
 - [[blueprint-first-production]] — A beautiful start frame is not enough. Serious AI film scenes need a blueprint layer before video spend.
+- [[claude-skills-ai-video-reference-pipeline]] — This page distills frame-level lessons from Joey's video “these new Claude skills are saving me hundreds” into the repo workflow. It supports [[blueprint-first-production]], [[ai-f
 - [[seedance-kling-routing]] — Use for:
 
 ## Projects

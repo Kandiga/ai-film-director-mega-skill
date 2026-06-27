@@ -18,7 +18,7 @@ A beautiful start frame is not enough. Serious AI film scenes need a blueprint l
 2. Environment/area blueprints — every major spatial zone.
 3. Shot blueprints — composition, camera, motion, action, sound/SFX, forbidden drift.
 
-This page supports [[cine-lock]] and [[etzba-emtzaeit-production-bible]].
+This page supports [[cine-lock]], [[etzba-emtzaeit-production-bible]], and [[claude-skills-ai-video-reference-pipeline]].
 
 ## Versioning after correction
 

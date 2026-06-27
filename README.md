@@ -95,6 +95,21 @@ Never treat a pretty start frame as production-ready by itself. For serious scen
 - contact sheet QA;
 - clip-level QA.
 
+### Claude-skills / Joey workflow update
+
+Frame-level analysis of Joey's Claude-skills video (`4TXaAnittHs`) added these upgrades:
+
+- lock recurring characters on solid gray reference sheets rather than white seamless backgrounds;
+- split identity, outfit, location, prop, and atmosphere references into separate roles;
+- generate six-panel/turnaround sheets for important characters;
+- always output a `References to attach in Seedance, in this order` block for serious shots;
+- use character names only as planning handles; tool-facing prompts must describe the visible identity;
+- avoid frozen rain/light streaks in still references; use wet surfaces and animate rain in video;
+- choose camera-operator mode deliberately: locked, gimbal, handheld breathing, Dutch angle, drone, POV;
+- treat raw generations as ~70%; the jump to film quality happens in the edit bay with color, J-cuts, sound, pacing and structure.
+
+Detailed notes live in `skills/ai-film-director-mega-skill/references/joey-claude-skills-frame-analysis-2026-06-27.md` and `docs/wiki/pipelines/claude-skills-ai-video-reference-pipeline.md`.
+
 ### Pre-prophetic reverse prompting
 
 When analyzing a reference film visually:
